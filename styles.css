@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 :root{
-    --primary-color: #f472b6
+    --primary-color: #f472b6;
+    --dark-gray: #64748b;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -56,4 +57,16 @@ hr{
 }
 .navigation .nav-brand{
     font-weight: bold;
+}
+.header{
+    padding: 2rem;
+}
+.header .header-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.header .header-heading{
+padding-top: 1rem;
+color: var(--dark-gray);
 }
