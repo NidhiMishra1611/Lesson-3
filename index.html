@@ -33,35 +33,36 @@
     <hr>
     <h2> List</h2>
     <h3> Unordered List</h3>
-    <ul>
+    <ul class="list-non-bullet">
         <li> Item 1 </li>
         <li> Item 2 </li>
         <li> Item 3 </li>
     </ul>
     <h3> Unoredered Inline List (Needs CSS to show inline results)</h3>
     <ul>
-        <li> Inline item 1 </li>
-        <li> Inline item 2 </li>
-        <li> Inline item 3 </li>
+        <li class="list-item-inline"> Inline item 1 </li>
+        <li class="list-item-inline"> Inline item 2 </li>
+        <li class="list-item-inline"> Inline item 3 </li>
     </ul>
     <h3> Reverse Ordered List (Needs CSS to print the list in reversed order) </h3>
-    <ol>
+    <ol reversed>
         <li> Chocolate</li>
         <li> Bauli</li>
         <li> Maggi</li>
     </ol>
     <hr>
     <h2> Nav</h2>
-    <nav>
-        <ul>
-            <li>
-                <a href = "/">Home</a>
+    <nav class="navigation">
+        <div class="nav-brand"> iAmBrand</div>
+        <ul class="list-non-bullet nav-list" >
+            <li class="list-item-inline">
+                <a class="link" href = "/">Home</a>
             </li>
-            <li>
-                <a href = "/">Product</a>
+            <li class="list-item-inline">
+                <a class="link" href = "/">Product</a>
             </li>
-            <li>
-                <a href = "/">About</a>
+            <li class="list-item-inline">
+                <a class="link" href = "/">About</a>
             </li>
         </ul>
     </nav>
