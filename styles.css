@@ -80,3 +80,14 @@ color: var(--dark-gray);
 .ow{
     background-color: var(--off-white);
 }
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    color: white;
+    text-align: center;
+}
+.footer .link{
+    color: white;
+    padding-inline-start: 0px;
+}
