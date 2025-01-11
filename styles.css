@@ -2,6 +2,7 @@
 :root{
     --primary-color: #f472b6;
     --dark-gray: #64748b;
+    --off-white: #f1f5f9;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -69,4 +70,13 @@ hr{
 .header .header-heading{
 padding-top: 1rem;
 color: var(--dark-gray);
+}
+.section{
+    padding: 1rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color: var(--off-white);
 }
