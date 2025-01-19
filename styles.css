@@ -25,6 +25,10 @@ hr{
     padding: 0.5rem 1rem;
 }
 
+.link-active{
+    font-weight: bold;
+}
+
 .primary-link{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
@@ -67,10 +71,27 @@ hr{
     display: block;
     margin: auto;
 }
+
+.header .blogs{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
 .header .header-heading{
 text-align: center;
 padding-top: 1rem;
 color: var(--dark-gray);
+}
+
+.header .header-note{
+text-align: center;
+padding-top: 1rem;
+display: block;
+color: var(--dark-gray);
+}
+
+.header .heading-inverted{
+    color:#f472b6;
 }
 .section{
     padding: 1rem;
@@ -91,4 +112,8 @@ color: var(--dark-gray);
 .footer .link{
     color: white;
     padding-inline-start: 0px;
+}
+.footer .footer-heading{
+    font-weight: bold;
+    font-size: large;
 }
